@@ -26,8 +26,6 @@
  * ```
  */
 
-import "./index.css";
+import './index.css';
 
-import { test } from "test-package";
-
-test();
+console.log('👋 This message is being logged by "renderer.js", included via Vite');
